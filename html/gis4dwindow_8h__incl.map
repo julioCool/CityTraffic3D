@@ -1,0 +1,14 @@
+<map id="gis4dwindow.h" name="gis4dwindow.h">
+<area shape="rect" id="node4" href="$includeqgis_8h.html" title="Liste d&#39;include des fonctionnalités QGIS. " alt="" coords="1432,304,1531,331"/>
+<area shape="rect" id="node24" href="$includec_8h.html" title="Liste d&#39;include des fonctionnalités en C. " alt="" coords="1790,229,1871,256"/>
+<area shape="rect" id="node31" href="$includeqt_8h.html" title="Liste d&#39;include des fonctionnalités Qt. " alt="" coords="869,229,955,256"/>
+<area shape="rect" id="node42" href="$newcity_8h.html" title="Fenêtre pour l&#39;import des données d&#39;une nouvelle ville. L&#39;utilisateur devra renseigner les chemins de..." alt="" coords="1430,155,1509,181"/>
+<area shape="rect" id="node46" href="$opengldisplay_8h.html" title="Fenêtre OpenGl et fonctions de conversions. " alt="" coords="1179,155,1291,181"/>
+<area shape="rect" id="node47" href="$holoview_8h.html" title="Fenêtre avec 4 vue 3D dessinées perpendiculairement les unes autres autres. Afin d&#39;afficher la vue de..." alt="" coords="1129,80,1213,107"/>
+<area shape="rect" id="node48" href="$stereodisplay_8h.html" title="stereodisplay.h" alt="" coords="1313,80,1423,107"/>
+<area shape="rect" id="node49" href="$calculpositionsoleil_8h.html" title="calculpositionsoleil.h" alt="" coords="1847,155,1990,181"/>
+<area shape="rect" id="node50" href="$hologramme_8h.html" title="hologramme.h" alt="" coords="1000,80,1104,107"/>
+<area shape="rect" id="node43" href="$fielddatabuilding_8h.html" title="Fenêtre pour le choix du champs contenant la hauteur des bâtiments. " alt="" coords="1406,229,1533,256"/>
+<area shape="rect" id="node44" href="$fielddataroad_8h.html" title="Fenêtre pour le choix du champs contenant la largeur des routes. " alt="" coords="1557,229,1664,256"/>
+<area shape="rect" id="node45" href="$helpbuilding_8h.html" title="Fenêtre d&#39;aide concernant l&#39;import de la données des bâtiments. " alt="" coords="1280,229,1381,256"/>
+</map>

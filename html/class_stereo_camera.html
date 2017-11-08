@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Traffic city3D: Référence de la classe StereoCamera</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="city22.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Traffic city3D
+   &#160;<span id="projectnumber">v1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="class_stereo_camera-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence de la classe StereoCamera</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="stereocamera_8h_source.html">stereocamera.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:a98332686f18d39a8f40c1a9ffcd9876c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stereo_camera.html#a98332686f18d39a8f40c1a9ffcd9876c">StereoCamera</a> (float Convergence, float EyeSeparation, float AspectRatio, float FOV, float NearClippingDistance, float FarClippingDistance)</td></tr>
+<tr class="separator:a98332686f18d39a8f40c1a9ffcd9876c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2819350aae55b03a58d27d9e9e3d8bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stereo_camera.html#aa2819350aae55b03a58d27d9e9e3d8bb">ApplyLeftFrustum</a> ()</td></tr>
+<tr class="separator:aa2819350aae55b03a58d27d9e9e3d8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1522187c943e432d8ff9adf6b2a4214"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stereo_camera.html#ac1522187c943e432d8ff9adf6b2a4214">ApplyRightFrustum</a> ()</td></tr>
+<tr class="separator:ac1522187c943e432d8ff9adf6b2a4214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab24fb0202d343c366ee99d9d51b44fe2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stereo_camera.html#ab24fb0202d343c366ee99d9d51b44fe2">ApplyNormalCamera</a> ()</td></tr>
+<tr class="separator:ab24fb0202d343c366ee99d9d51b44fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>The stereo is defined with the convergence, the eye separation,the aspect ratio, the near and far distance and the FOV.</p><ul>
+<li>the diagram explain the method for the realisation of the asymetric display <div class="image">
+<img src="stereoView2.jpg" alt="stereoView2.jpg"/>
+<div class="caption">
+Asymetric frustum</div></div>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Convergence</td><td></td></tr>
+    <tr><td class="paramname">EyeSeparation</td><td></td></tr>
+    <tr><td class="paramname">AspectRatio</td><td></td></tr>
+    <tr><td class="paramname">FOV</td><td></td></tr>
+    <tr><td class="paramname">NearClippingDistance</td><td></td></tr>
+    <tr><td class="paramname">FarClippingDistance</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+</li>
+</ul>
+</div><h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a id="a98332686f18d39a8f40c1a9ffcd9876c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98332686f18d39a8f40c1a9ffcd9876c">&#9670;&nbsp;</a></span>StereoCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StereoCamera::StereoCamera </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>Convergence</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>EyeSeparation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>AspectRatio</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>FOV</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>NearClippingDistance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>FarClippingDistance</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions membres</h2>
+<a id="aa2819350aae55b03a58d27d9e9e3d8bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2819350aae55b03a58d27d9e9e3d8bb">&#9670;&nbsp;</a></span>ApplyLeftFrustum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StereoCamera::ApplyLeftFrustum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_stereo_camera_aa2819350aae55b03a58d27d9e9e3d8bb_icgraph.png" border="0" usemap="#class_stereo_camera_aa2819350aae55b03a58d27d9e9e3d8bb_icgraph" alt=""/></div>
+<map name="class_stereo_camera_aa2819350aae55b03a58d27d9e9e3d8bb_icgraph" id="class_stereo_camera_aa2819350aae55b03a58d27d9e9e3d8bb_icgraph">
+<area shape="rect" id="node2" href="classopen_gl_display.html#a912f95aa86ddd4303f247d8ddbc5ddca" title="Cette méthode est appelée à toute les images par seconde. Toute la scene 3D est gérée ici..." alt="" coords="271,53,431,79"/>
+<area shape="rect" id="node3" href="classopen_gl_display.html#afbf525a593abc0500cd01cce9d94edcc" title="Rotation d&#39;un quaternion depuis un vecteur. Création d&#39;un nouveau quaternion avec un quaternion tampo..." alt="" coords="479,53,657,79"/>
+<area shape="rect" id="node4" href="classopen_gl_display.html#ac364c965992c2fc8328fe21d80fef498" title="openGlDisplay::updateView" alt="" coords="705,53,888,79"/>
+<area shape="rect" id="node5" href="classopen_gl_display.html#a3b93e977e83ac28e266378fecbf545c9" title="Mouvements de la souris. " alt="" coords="945,5,1131,47"/>
+<area shape="rect" id="node6" href="classopen_gl_display.html#a71b81fecc244ab45be5981f6705876b5" title="Evénements clavier. " alt="" coords="936,82,1140,109"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab24fb0202d343c366ee99d9d51b44fe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab24fb0202d343c366ee99d9d51b44fe2">&#9670;&nbsp;</a></span>ApplyNormalCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StereoCamera::ApplyNormalCamera </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_stereo_camera_ab24fb0202d343c366ee99d9d51b44fe2_icgraph.png" border="0" usemap="#class_stereo_camera_ab24fb0202d343c366ee99d9d51b44fe2_icgraph" alt=""/></div>
+<map name="class_stereo_camera_ab24fb0202d343c366ee99d9d51b44fe2_icgraph" id="class_stereo_camera_ab24fb0202d343c366ee99d9d51b44fe2_icgraph">
+<area shape="rect" id="node2" href="classopen_gl_display.html#a912f95aa86ddd4303f247d8ddbc5ddca" title="Cette méthode est appelée à toute les images par seconde. Toute la scene 3D est gérée ici..." alt="" coords="243,53,403,79"/>
+<area shape="rect" id="node3" href="classopen_gl_display.html#afbf525a593abc0500cd01cce9d94edcc" title="Rotation d&#39;un quaternion depuis un vecteur. Création d&#39;un nouveau quaternion avec un quaternion tampo..." alt="" coords="451,53,629,79"/>
+<area shape="rect" id="node4" href="classopen_gl_display.html#ac364c965992c2fc8328fe21d80fef498" title="openGlDisplay::updateView" alt="" coords="677,53,860,79"/>
+<area shape="rect" id="node5" href="classopen_gl_display.html#a3b93e977e83ac28e266378fecbf545c9" title="Mouvements de la souris. " alt="" coords="917,5,1103,47"/>
+<area shape="rect" id="node6" href="classopen_gl_display.html#a71b81fecc244ab45be5981f6705876b5" title="Evénements clavier. " alt="" coords="908,82,1112,109"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac1522187c943e432d8ff9adf6b2a4214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1522187c943e432d8ff9adf6b2a4214">&#9670;&nbsp;</a></span>ApplyRightFrustum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StereoCamera::ApplyRightFrustum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_stereo_camera_ac1522187c943e432d8ff9adf6b2a4214_icgraph.png" border="0" usemap="#class_stereo_camera_ac1522187c943e432d8ff9adf6b2a4214_icgraph" alt=""/></div>
+<map name="class_stereo_camera_ac1522187c943e432d8ff9adf6b2a4214_icgraph" id="class_stereo_camera_ac1522187c943e432d8ff9adf6b2a4214_icgraph">
+<area shape="rect" id="node2" href="classopen_gl_display.html#a912f95aa86ddd4303f247d8ddbc5ddca" title="Cette méthode est appelée à toute les images par seconde. Toute la scene 3D est gérée ici..." alt="" coords="232,53,392,79"/>
+<area shape="rect" id="node3" href="classopen_gl_display.html#afbf525a593abc0500cd01cce9d94edcc" title="Rotation d&#39;un quaternion depuis un vecteur. Création d&#39;un nouveau quaternion avec un quaternion tampo..." alt="" coords="440,53,619,79"/>
+<area shape="rect" id="node4" href="classopen_gl_display.html#ac364c965992c2fc8328fe21d80fef498" title="openGlDisplay::updateView" alt="" coords="667,53,849,79"/>
+<area shape="rect" id="node5" href="classopen_gl_display.html#a3b93e977e83ac28e266378fecbf545c9" title="Mouvements de la souris. " alt="" coords="906,5,1093,47"/>
+<area shape="rect" id="node6" href="classopen_gl_display.html#a71b81fecc244ab45be5981f6705876b5" title="Evénements clavier. " alt="" coords="897,82,1101,109"/>
+</map>
+</div>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li><a class="el" href="stereocamera_8h_source.html">stereocamera.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Jeudi 26 Octobre 2017 23:37:54 pour Traffic city3D par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

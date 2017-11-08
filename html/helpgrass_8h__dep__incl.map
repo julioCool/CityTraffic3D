@@ -1,0 +1,23 @@
+<map id="helpgrass.h" name="helpgrass.h">
+<area shape="rect" id="node2" href="$newcity_8h.html" title="Fenêtre pour l&#39;import des données d&#39;une nouvelle ville. L&#39;utilisateur devra renseigner les chemins de..." alt="" coords="606,80,685,107"/>
+<area shape="rect" id="node21" href="$helpgrass_8cpp.html" title="Fen�tre d&#39;aide pour l&#39;import des zones herbac�es. " alt="" coords="709,80,811,107"/>
+<area shape="rect" id="node22" href="$moc__helpgrass_8cpp.html" title="moc_helpgrass.cpp" alt="" coords="835,80,970,107"/>
+<area shape="rect" id="node3" href="$gis4dwindow_8h.html" title="Fenêtre globale du logiciel Dans cette fenêtre se trouve toutes les possibilités d&#39;affichage ou de ca..." alt="" coords="451,155,559,181"/>
+<area shape="rect" id="node19" href="$moc__newcity_8cpp.html" title="moc_newcity.cpp" alt="" coords="583,155,707,181"/>
+<area shape="rect" id="node20" href="$newcity_8cpp.html" title="Fenêtre pour l&#39;import de nouvelles données. " alt="" coords="731,155,823,181"/>
+<area shape="rect" id="node4" href="$gis4dwindow_8cpp.html" title="Fenêtre principale du logiciel. " alt="" coords="177,229,300,256"/>
+<area shape="rect" id="node5" href="$opengldisplay_8h.html" title="Fenêtre OpenGl et fonctions de conversions. " alt="" coords="377,304,489,331"/>
+<area shape="rect" id="node16" href="$stereocamera_8h.html" title="Calculate the left and right display for the steroscopic view. " alt="" coords="449,229,561,256"/>
+<area shape="rect" id="node17" href="$main_8cpp.html" title="Fichier de lancement du programme Traffic City 3D. " alt="" coords="687,229,761,256"/>
+<area shape="rect" id="node18" href="$moc__gis4dwindow_8cpp.html" title="moc_gis4dwindow.cpp" alt="" coords="785,229,940,256"/>
+<area shape="rect" id="node6" href="$holoview_8h.html" title="Fenêtre avec 4 vue 3D dessinées perpendiculairement les unes autres autres. Afin d&#39;afficher la vue de..." alt="" coords="98,379,182,405"/>
+<area shape="rect" id="node9" href="$stereodisplay_8h.html" title="stereodisplay.h" alt="" coords="539,379,650,405"/>
+<area shape="rect" id="node12" href="$hologramme_8h.html" title="hologramme.h" alt="" coords="675,379,779,405"/>
+<area shape="rect" id="node14" href="$moc__opengldisplay_8cpp.html" title="moc_opengldisplay.cpp" alt="" coords="357,379,515,405"/>
+<area shape="rect" id="node15" href="$opengldisplay_8cpp.html" title="Widget pour la vue 3D. " alt="" coords="206,379,333,405"/>
+<area shape="rect" id="node7" href="$holoview_8cpp.html" title="Fenêtre avec 4 vues avec différentes rotations pour une vue de type holographique. " alt="" coords="160,453,259,480"/>
+<area shape="rect" id="node8" href="$moc__holoview_8cpp.html" title="moc_holoview.cpp" alt="" coords="5,453,136,480"/>
+<area shape="rect" id="node10" href="$moc__stereodisplay_8cpp.html" title="moc_stereodisplay.cpp" alt="" coords="517,453,673,480"/>
+<area shape="rect" id="node11" href="$stereodisplay_8cpp.html" title="Widget pour la vue stéréoscopique. " alt="" coords="369,453,493,480"/>
+<area shape="rect" id="node13" href="$hologramme_8cpp.html" title="hologramme.cpp" alt="" coords="697,453,815,480"/>
+</map>

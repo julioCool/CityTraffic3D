@@ -1,0 +1,11 @@
+\form#0:$\sqrt{x^2 + y^2 + z^2} $
+\form#1:$ x=(y1*z2 - z1*y2)$
+\form#2:$ y=(z1*x2 - x1*z2)$
+\form#3:$ z=(x1*y2 - y1*x2)$
+\form#4:$ |Q| = \sqrt{x^2 + y^2 + z^2 + w^2} $
+\form#5:$Q' = [ w, -[b]v[/b] ]$
+\form#6:$ C = A * B $
+\form#7:$ C.x = A.w*B.x + A.x*B.w + A.y*B.z - A.z*B.y $
+\form#8:$ C.y = A.w*B.y - A.x*B.z + A.y*B.w + A.z*B.x $
+\form#9:$ C.z = A.w*B.z + A.x*B.y - A.y*B.x + A.z*B.w $
+\form#10:$ C.w = A.w*B.w - A.x*B.x - A.y*B.y - A.z*B.z $

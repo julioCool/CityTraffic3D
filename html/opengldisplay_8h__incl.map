@@ -1,0 +1,13 @@
+<map id="opengldisplay.h" name="opengldisplay.h">
+<area shape="rect" id="node2" href="$includeqgis_8h.html" title="Liste d&#39;include des fonctionnalités QGIS. " alt="" coords="1943,229,2042,256"/>
+<area shape="rect" id="node22" href="$includec_8h.html" title="Liste d&#39;include des fonctionnalités en C. " alt="" coords="3688,229,3769,256"/>
+<area shape="rect" id="node29" href="$includeqt_8h.html" title="Liste d&#39;include des fonctionnalités Qt. " alt="" coords="553,304,638,331"/>
+<area shape="rect" id="node40" href="$my_g_l_widget_8h.html" title="Fen?tre OpenGl. " alt="" coords="2149,80,2258,107"/>
+<area shape="rect" id="node42" href="$tools_8h.html" title="Outils servant à la conversion des données, à la simulation et à la vue 3d. " alt="" coords="1741,155,1802,181"/>
+<area shape="rect" id="node43" href="$globalvariables_8h.html" title="Variables globales pour le fonctionnement du logiciel. " alt="" coords="633,229,752,256"/>
+<area shape="rect" id="node44" href="$gis4dwindow_8h.html" title="Fenêtre globale du logiciel Dans cette fenêtre se trouve toutes les possibilités d&#39;affichage ou de ca..." alt="" coords="1939,155,2047,181"/>
+<area shape="rect" id="node45" href="$stereocamera_8h.html" title="Calculate the left and right display for the steroscopic view. " alt="" coords="2013,80,2125,107"/>
+<area shape="rect" id="node46" href="$sdlglutils_8h.html" title="Outils pour la gestion des images/textures. " alt="" coords="2283,80,2367,107"/>
+<area shape="rect" id="node47" href="$vehicule_8h.html" title="vehicule.h" alt="" coords="1731,80,1812,107"/>
+<area shape="rect" id="node41" href="$includeopengl_8h.html" title="Liste d&#39;include des fonctionnalités OpenGl. " alt="" coords="2141,155,2253,181"/>
+</map>

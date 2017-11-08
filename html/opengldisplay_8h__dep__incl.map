@@ -1,0 +1,17 @@
+<map id="opengldisplay.h" name="opengldisplay.h">
+<area shape="rect" id="node2" href="$gis4dwindow_8h.html" title="Fenêtre globale du logiciel Dans cette fenêtre se trouve toutes les possibilités d&#39;affichage ou de ca..." alt="" coords="283,155,391,181"/>
+<area shape="rect" id="node7" href="$holoview_8h.html" title="Fenêtre avec 4 vue 3D dessinées perpendiculairement les unes autres autres. Afin d&#39;afficher la vue de..." alt="" coords="177,80,261,107"/>
+<area shape="rect" id="node10" href="$stereodisplay_8h.html" title="stereodisplay.h" alt="" coords="422,80,533,107"/>
+<area shape="rect" id="node13" href="$hologramme_8h.html" title="hologramme.h" alt="" coords="557,80,661,107"/>
+<area shape="rect" id="node15" href="$moc__opengldisplay_8cpp.html" title="moc_opengldisplay.cpp" alt="" coords="938,80,1097,107"/>
+<area shape="rect" id="node16" href="$opengldisplay_8cpp.html" title="Widget pour la vue 3D. " alt="" coords="1121,80,1247,107"/>
+<area shape="rect" id="node3" href="$gis4dwindow_8cpp.html" title="Fenêtre principale du logiciel. " alt="" coords="153,229,276,256"/>
+<area shape="rect" id="node4" href="$stereocamera_8h.html" title="Calculate the left and right display for the steroscopic view. " alt="" coords="711,229,823,256"/>
+<area shape="rect" id="node5" href="$main_8cpp.html" title="Fichier de lancement du programme Traffic City 3D. " alt="" coords="300,229,375,256"/>
+<area shape="rect" id="node6" href="$moc__gis4dwindow_8cpp.html" title="moc_gis4dwindow.cpp" alt="" coords="399,229,553,256"/>
+<area shape="rect" id="node8" href="$holoview_8cpp.html" title="Fenêtre avec 4 vues avec différentes rotations pour une vue de type holographique. " alt="" coords="5,155,104,181"/>
+<area shape="rect" id="node9" href="$moc__holoview_8cpp.html" title="moc_holoview.cpp" alt="" coords="128,155,259,181"/>
+<area shape="rect" id="node11" href="$moc__stereodisplay_8cpp.html" title="moc_stereodisplay.cpp" alt="" coords="563,155,719,181"/>
+<area shape="rect" id="node12" href="$stereodisplay_8cpp.html" title="Widget pour la vue stéréoscopique. " alt="" coords="415,155,539,181"/>
+<area shape="rect" id="node14" href="$hologramme_8cpp.html" title="hologramme.cpp" alt="" coords="743,155,862,181"/>
+</map>

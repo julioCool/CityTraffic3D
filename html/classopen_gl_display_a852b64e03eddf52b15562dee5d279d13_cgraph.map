@@ -1,0 +1,21 @@
+<map id="openGlDisplay::getData" name="openGlDisplay::getData">
+<area shape="rect" id="node2" href="$classopen_gl_display.html#ab9ea5b002e9ea93260513ba916b7ac31" title="openGlDisplay::ChargerOjb3D" alt="" coords="215,5,413,32"/>
+<area shape="rect" id="node3" href="$classtools.html#a71c5616ad73ab52d8599858ee17d699c" title="triangulation d&#39;une grille Triangulation d&#39;une grille topographique " alt="" coords="238,208,390,235"/>
+<area shape="rect" id="node7" href="$classtools.html#aa867e4188a8c79fe093d6ec0edd7301f" title="Extraction des coordonnées à partir d&#39;un fichier de lignes. Lecture d&#39;un fichier .shp contenant des lignes pour en extraire les sommets et les informations importantes pour le module de simulation. " alt="" coords="479,107,608,133"/>
+<area shape="rect" id="node9" href="$classtools.html#ae1cf84c00c192729f49158dbdb245be4" title="Création de la topologie. Création de la topologie en prenant en compte tous les tronçons chargés..." alt="" coords="245,157,383,184"/>
+<area shape="rect" id="node11" href="$classtools.html#a64a8e11dc7a993208b2609def3c536aa" title="Creer les triangles 3D des tronçons de route. 2 triangles sont créés pour chacun des triangles..." alt="" coords="235,360,393,387"/>
+<area shape="rect" id="node12" href="$classtools.html#ab94061cb1d6356a7f15d912ccd672eb5" title="Choix d&#39;un segment sur le réseau routier. Un segment est choisi aléatoirement sur le réseau..." alt="" coords="229,411,399,437"/>
+<area shape="rect" id="node13" href="$classtools.html#ad0f79852bb1e28a637c7b94682cd6786" title="Trouve un chemin aléatoire sur le réseau. Un trajet aléatoire est trouvé à partir d&#39;un point de dépar..." alt="" coords="235,461,393,488"/>
+<area shape="rect" id="node15" href="$classopen_gl_display.html#ac2aaee6bab489b8370f02ac6dd3783bb" title="Charge les objets voitures. " alt="" coords="215,513,413,554"/>
+<area shape="rect" id="node16" href="$classtools.html#a409915e4409c0fdaaabf0f3b0d14977a" title="Extraction des coordonnées à partir d&#39;un fichier de polygones Lecture d&#39;un fichier ..." alt="" coords="247,579,381,605"/>
+<area shape="rect" id="node17" href="$classtools.html#a540516e1908be02e9bb79bb1f992f74c" title="Rempli un vectuer de points3D à partir d&#39;un vecteur de vecteur de points. " alt="" coords="464,56,623,83"/>
+<area shape="rect" id="node18" href="$classtools.html#ab1f11c455db77994a9e62fc066c02539" title="Positionnement des bâtiments sur la topographie Rattachement des bâtiments à la topographie avec attr..." alt="" coords="232,629,396,656"/>
+<area shape="rect" id="node19" href="$classtools.html#aaae6a53df2dd421c560f96c3ee3edcc4" title="Création de toits en 3D Cette méthode est utilisée seulement pour les bâtiments ayant 4 façades..." alt="" coords="265,309,363,336"/>
+<area shape="rect" id="node20" href="$classtools.html#a7296b149ce7ef19249b1714c0878b59f" title="Création de murs en 3D Création de murs en 3D. " alt="" coords="265,259,363,285"/>
+<area shape="rect" id="node4" href="$classtools.html#a0f5d12035d6c1ae869634957861af527" title="Interpolation d&#39;une grille. Interpolation d&#39;une grille topographique. " alt="" coords="468,157,619,184"/>
+<area shape="rect" id="node6" href="$classtools.html#aed6a561059073aaa0fd15d9dee5e3915" title="Calcul de la norme Calcul de la norme à partir de 3 points. " alt="" coords="486,259,601,285"/>
+<area shape="rect" id="node5" href="$classtools.html#a51a1e2baf8f72423c78f5b77fcb8cf22" title="Recherche de 16 points autour d&#39;un point donné G3D permet de trouver les points autour d&#39;un point don..." alt="" coords="684,107,769,133"/>
+<area shape="rect" id="node8" href="$classtools.html#a718f4aa3915e47a62faa127fab54e04a" title="Calcul de distance. Calcul basique de distance entre deux points. " alt="" coords="673,183,780,209"/>
+<area shape="rect" id="node10" href="$classtools.html#a478731610db22895aa7c89e6f856099e" title="Calcul de l&#39;angle entre 3 points. Calcul de l&#39;angle entre deux tronçon prenant en compte le point en ..." alt="" coords="461,208,625,235"/>
+<area shape="rect" id="node14" href="$classtools.html#a708ed768e2dcb578b33ed6a2c8de240f" title="Récupère le tronçon suivant d&#39;un itinéraire. Selon un tronçon donné, la méthode trouve un prochain tr..." alt="" coords="475,461,612,488"/>
+</map>

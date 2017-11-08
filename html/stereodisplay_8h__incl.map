@@ -1,0 +1,13 @@
+<map id="stereodisplay.h" name="stereodisplay.h">
+<area shape="rect" id="node3" href="$opengldisplay_8h.html" title="Fenêtre OpenGl et fonctions de conversions. " alt="" coords="1056,80,1168,107"/>
+<area shape="rect" id="node4" href="$includeqgis_8h.html" title="Liste d&#39;include des fonctionnalités QGIS. " alt="" coords="1773,304,1872,331"/>
+<area shape="rect" id="node24" href="$includec_8h.html" title="Liste d&#39;include des fonctionnalités en C. " alt="" coords="3579,304,3661,331"/>
+<area shape="rect" id="node31" href="$includeqt_8h.html" title="Liste d&#39;include des fonctionnalités Qt. " alt="" coords="455,379,540,405"/>
+<area shape="rect" id="node41" href="$my_g_l_widget_8h.html" title="Fen?tre OpenGl. " alt="" coords="609,155,719,181"/>
+<area shape="rect" id="node42" href="$tools_8h.html" title="Outils servant à la conversion des données, à la simulation et à la vue 3d. " alt="" coords="804,229,865,256"/>
+<area shape="rect" id="node43" href="$globalvariables_8h.html" title="Variables globales pour le fonctionnement du logiciel. " alt="" coords="535,304,654,331"/>
+<area shape="rect" id="node44" href="$gis4dwindow_8h.html" title="Fenêtre globale du logiciel Dans cette fenêtre se trouve toutes les possibilités d&#39;affichage ou de ca..." alt="" coords="1618,229,1726,256"/>
+<area shape="rect" id="node45" href="$stereocamera_8h.html" title="Calculate the left and right display for the steroscopic view. " alt="" coords="1665,155,1777,181"/>
+<area shape="rect" id="node46" href="$sdlglutils_8h.html" title="Outils pour la gestion des images/textures. " alt="" coords="1002,155,1086,181"/>
+<area shape="rect" id="node47" href="$vehicule_8h.html" title="vehicule.h" alt="" coords="794,155,875,181"/>
+</map>

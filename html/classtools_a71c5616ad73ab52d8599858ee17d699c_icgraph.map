@@ -1,0 +1,8 @@
+<map id="tools::triangulationGrid" name="tools::triangulationGrid">
+<area shape="rect" id="node2" href="$classopen_gl_display.html#a852b64e03eddf52b15562dee5d279d13" title="Toutes les données d&#39;import sont gérées via cette méthode. Cette méthode est appelé au chargement de ..." alt="" coords="205,53,367,79"/>
+<area shape="rect" id="node3" href="$classopen_gl_display.html#a9c20f4dcb5bbd2def39af31d22a254b2" title="Initialisation des variables. " alt="" coords="415,27,593,54"/>
+<area shape="rect" id="node4" href="$classopen_gl_display.html#afbf525a593abc0500cd01cce9d94edcc" title="Rotation d&#39;un quaternion depuis un vecteur. Création d&#39;un nouveau quaternion avec un quaternion tampo..." alt="" coords="641,53,820,79"/>
+<area shape="rect" id="node5" href="$classopen_gl_display.html#ac364c965992c2fc8328fe21d80fef498" title="openGlDisplay::updateView" alt="" coords="868,53,1051,79"/>
+<area shape="rect" id="node6" href="$classopen_gl_display.html#a3b93e977e83ac28e266378fecbf545c9" title="Mouvements de la souris. " alt="" coords="1107,5,1294,47"/>
+<area shape="rect" id="node7" href="$classopen_gl_display.html#a71b81fecc244ab45be5981f6705876b5" title="Evénements clavier. " alt="" coords="1099,82,1303,109"/>
+</map>

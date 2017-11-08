@@ -1,0 +1,13 @@
+<map id="stereocamera.h" name="stereocamera.h">
+<area shape="rect" id="node2" href="$includec_8h.html" title="Liste d&#39;include des fonctionnalités en C. " alt="" coords="222,304,303,331"/>
+<area shape="rect" id="node9" href="$includeopengl_8h.html" title="Liste d&#39;include des fonctionnalités OpenGl. " alt="" coords="1305,80,1417,107"/>
+<area shape="rect" id="node15" href="$gis4dwindow_8h.html" title="Fenêtre globale du logiciel Dans cette fenêtre se trouve toutes les possibilités d&#39;affichage ou de ca..." alt="" coords="529,80,637,107"/>
+<area shape="rect" id="node18" href="$includeqgis_8h.html" title="Liste d&#39;include des fonctionnalités QGIS. " alt="" coords="2325,304,2424,331"/>
+<area shape="rect" id="node38" href="$includeqt_8h.html" title="Liste d&#39;include des fonctionnalités Qt. " alt="" coords="841,304,927,331"/>
+<area shape="rect" id="node45" href="$newcity_8h.html" title="Fenêtre pour l&#39;import des données d&#39;une nouvelle ville. L&#39;utilisateur devra renseigner les chemins de..." alt="" coords="310,229,389,256"/>
+<area shape="rect" id="node46" href="$opengldisplay_8h.html" title="Fenêtre OpenGl et fonctions de conversions. " alt="" coords="421,229,533,256"/>
+<area shape="rect" id="node47" href="$holoview_8h.html" title="Fenêtre avec 4 vue 3D dessinées perpendiculairement les unes autres autres. Afin d&#39;afficher la vue de..." alt="" coords="662,155,746,181"/>
+<area shape="rect" id="node48" href="$stereodisplay_8h.html" title="stereodisplay.h" alt="" coords="527,155,638,181"/>
+<area shape="rect" id="node49" href="$calculpositionsoleil_8h.html" title="calculpositionsoleil.h" alt="" coords="31,229,174,256"/>
+<area shape="rect" id="node50" href="$hologramme_8h.html" title="hologramme.h" alt="" coords="771,155,875,181"/>
+</map>

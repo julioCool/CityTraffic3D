@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Traffic city3D: Référence du fichier sdlglutils.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="city22.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Traffic city3D
+   &#160;<span id="projectnumber">v1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Fonctions</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier sdlglutils.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="sdlglutils_8h_source.html">sdlglutils.h</a>&quot;</code><br />
+<code>#include &lt;SDL/SDL.h&gt;</code><br />
+<code>#include &lt;SDL/SDL_image.h&gt;</code><br />
+<code>#include &lt;GL/glu.h&gt;</code><br />
+<code>#include &lt;cstring&gt;</code><br />
+<code>#include &lt;cstdlib&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Graphe des dépendances par inclusion de sdlglutils.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="sdlglutils_8cpp__incl.png" border="0" usemap="#sdlglutils_8cpp" alt=""/></div>
+<map name="sdlglutils_8cpp" id="sdlglutils_8cpp">
+<area shape="rect" id="node2" href="sdlglutils_8h.html" title="Outils pour la gestion des images/textures. " alt="" coords="17,80,101,107"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:ad75ef2ff49865190edc599bb8710a936"><td class="memItemLeft" align="right" valign="top">SDL_Surface *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdlglutils_8cpp.html#ad75ef2ff49865190edc599bb8710a936">flipSurface</a> (SDL_Surface *surface)</td></tr>
+<tr class="separator:ad75ef2ff49865190edc599bb8710a936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8d291e8504c8400169aad1d92c37e6d"><td class="memItemLeft" align="right" valign="top">GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdlglutils_8cpp.html#ae8d291e8504c8400169aad1d92c37e6d">loadTexture</a> (const char *filename, bool useMipMap)</td></tr>
+<tr class="separator:ae8d291e8504c8400169aad1d92c37e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8244e9951d6847099f63586af59f1f84"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdlglutils_8cpp.html#a8244e9951d6847099f63586af59f1f84">takeScreenshot</a> (const char *filename)</td></tr>
+<tr class="separator:a8244e9951d6847099f63586af59f1f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef23650a08ea007ae0ba1c262e0aee08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdlglutils_8cpp.html#aef23650a08ea007ae0ba1c262e0aee08">drawAxis</a> (double scale)</td></tr>
+<tr class="separator:aef23650a08ea007ae0ba1c262e0aee08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fbda3f3c395fe2df925e6d15a4c62f4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdlglutils_8cpp.html#a5fbda3f3c395fe2df925e6d15a4c62f4">initFullScreen</a> (unsigned int *width, unsigned int *height)</td></tr>
+<tr class="separator:a5fbda3f3c395fe2df925e6d15a4c62f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fade277f34ab06d29568d8dc0615965"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdlglutils_8cpp.html#a1fade277f34ab06d29568d8dc0615965">XPMFromImage</a> (const char *imagefile, const char *XPMfile)</td></tr>
+<tr class="separator:a1fade277f34ab06d29568d8dc0615965"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a349aaa0985b868f3413b390d44eefa5f"><td class="memItemLeft" align="right" valign="top">SDL_Cursor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdlglutils_8cpp.html#a349aaa0985b868f3413b390d44eefa5f">cursorFromXPM</a> (const char *xpm[])</td></tr>
+<tr class="separator:a349aaa0985b868f3413b390d44eefa5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="a349aaa0985b868f3413b390d44eefa5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a349aaa0985b868f3413b390d44eefa5f">&#9670;&nbsp;</a></span>cursorFromXPM()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Cursor* cursorFromXPM </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>xpm</em>[]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef23650a08ea007ae0ba1c262e0aee08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef23650a08ea007ae0ba1c262e0aee08">&#9670;&nbsp;</a></span>drawAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void drawAxis </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>scale</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad75ef2ff49865190edc599bb8710a936"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad75ef2ff49865190edc599bb8710a936">&#9670;&nbsp;</a></span>flipSurface()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Surface * flipSurface </td>
+          <td>(</td>
+          <td class="paramtype">SDL_Surface *&#160;</td>
+          <td class="paramname"><em>surface</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="sdlglutils_8cpp_ad75ef2ff49865190edc599bb8710a936_icgraph.png" border="0" usemap="#sdlglutils_8cpp_ad75ef2ff49865190edc599bb8710a936_icgraph" alt=""/></div>
+<map name="sdlglutils_8cpp_ad75ef2ff49865190edc599bb8710a936_icgraph" id="sdlglutils_8cpp_ad75ef2ff49865190edc599bb8710a936_icgraph">
+<area shape="rect" id="node2" href="sdlglutils_8h.html#a91f7ed81703db7687039d5dbb01faf1d" title="loadTexture" alt="" coords="149,53,239,79"/>
+<area shape="rect" id="node8" href="sdlglutils_8h.html#a8244e9951d6847099f63586af59f1f84" title="takeScreenshot" alt="" coords="137,103,251,130"/>
+<area shape="rect" id="node3" href="classopen_gl_display.html#a9c20f4dcb5bbd2def39af31d22a254b2" title="Initialisation des variables. " alt="" coords="299,53,477,79"/>
+<area shape="rect" id="node4" href="classopen_gl_display.html#afbf525a593abc0500cd01cce9d94edcc" title="Rotation d&#39;un quaternion depuis un vecteur. Création d&#39;un nouveau quaternion avec un quaternion tampo..." alt="" coords="525,53,704,79"/>
+<area shape="rect" id="node5" href="classopen_gl_display.html#ac364c965992c2fc8328fe21d80fef498" title="openGlDisplay::updateView" alt="" coords="752,53,935,79"/>
+<area shape="rect" id="node6" href="classopen_gl_display.html#a3b93e977e83ac28e266378fecbf545c9" title="Mouvements de la souris. " alt="" coords="991,5,1178,47"/>
+<area shape="rect" id="node7" href="classopen_gl_display.html#a71b81fecc244ab45be5981f6705876b5" title="Evénements clavier. " alt="" coords="983,82,1187,109"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5fbda3f3c395fe2df925e6d15a4c62f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fbda3f3c395fe2df925e6d15a4c62f4">&#9670;&nbsp;</a></span>initFullScreen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int initFullScreen </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int *&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int *&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8d291e8504c8400169aad1d92c37e6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8d291e8504c8400169aad1d92c37e6d">&#9670;&nbsp;</a></span>loadTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLuint loadTexture </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>useMipMap</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="sdlglutils_8cpp_ae8d291e8504c8400169aad1d92c37e6d_cgraph.png" border="0" usemap="#sdlglutils_8cpp_ae8d291e8504c8400169aad1d92c37e6d_cgraph" alt=""/></div>
+<map name="sdlglutils_8cpp_ae8d291e8504c8400169aad1d92c37e6d_cgraph" id="sdlglutils_8cpp_ae8d291e8504c8400169aad1d92c37e6d_cgraph">
+<area shape="rect" id="node2" href="sdlglutils_8cpp.html#ad75ef2ff49865190edc599bb8710a936" title="flipSurface" alt="" coords="144,5,228,32"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="sdlglutils_8cpp_ae8d291e8504c8400169aad1d92c37e6d_icgraph.png" border="0" usemap="#sdlglutils_8cpp_ae8d291e8504c8400169aad1d92c37e6d_icgraph" alt=""/></div>
+<map name="sdlglutils_8cpp_ae8d291e8504c8400169aad1d92c37e6d_icgraph" id="sdlglutils_8cpp_ae8d291e8504c8400169aad1d92c37e6d_icgraph">
+<area shape="rect" id="node2" href="classopen_gl_display.html#a9c20f4dcb5bbd2def39af31d22a254b2" title="Initialisation des variables. " alt="" coords="144,53,323,79"/>
+<area shape="rect" id="node3" href="classopen_gl_display.html#afbf525a593abc0500cd01cce9d94edcc" title="Rotation d&#39;un quaternion depuis un vecteur. Création d&#39;un nouveau quaternion avec un quaternion tampo..." alt="" coords="371,53,549,79"/>
+<area shape="rect" id="node4" href="classopen_gl_display.html#ac364c965992c2fc8328fe21d80fef498" title="openGlDisplay::updateView" alt="" coords="597,53,780,79"/>
+<area shape="rect" id="node5" href="classopen_gl_display.html#a3b93e977e83ac28e266378fecbf545c9" title="Mouvements de la souris. " alt="" coords="837,5,1023,47"/>
+<area shape="rect" id="node6" href="classopen_gl_display.html#a71b81fecc244ab45be5981f6705876b5" title="Evénements clavier. " alt="" coords="828,82,1032,109"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8244e9951d6847099f63586af59f1f84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8244e9951d6847099f63586af59f1f84">&#9670;&nbsp;</a></span>takeScreenshot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int takeScreenshot </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="sdlglutils_8cpp_a8244e9951d6847099f63586af59f1f84_cgraph.png" border="0" usemap="#sdlglutils_8cpp_a8244e9951d6847099f63586af59f1f84_cgraph" alt=""/></div>
+<map name="sdlglutils_8cpp_a8244e9951d6847099f63586af59f1f84_cgraph" id="sdlglutils_8cpp_a8244e9951d6847099f63586af59f1f84_cgraph">
+<area shape="rect" id="node2" href="sdlglutils_8cpp.html#ad75ef2ff49865190edc599bb8710a936" title="flipSurface" alt="" coords="167,5,251,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1fade277f34ab06d29568d8dc0615965"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fade277f34ab06d29568d8dc0615965">&#9670;&nbsp;</a></span>XPMFromImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int XPMFromImage </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>imagefile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>XPMfile</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Jeudi 26 Octobre 2017 23:37:54 pour Traffic city3D par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

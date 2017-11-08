@@ -1,0 +1,4 @@
+<map id="openGlDisplay::Move2D" name="openGlDisplay::Move2D">
+<area shape="rect" id="node2" href="$classopen_gl_display.html#ae4fc4fbe5125c832b332885ae90ef26e" title="Change l&#39;angle d&#39;inclinaison de la caméra (heading) selon les mouvements de la sourirs. " alt="" coords="217,5,425,32"/>
+<area shape="rect" id="node3" href="$classopen_gl_display.html#aa14c5e036abd463ac834bd3084cb2c16" title="Change le tangage de la caméra (pitch) selon les mouvements de la sourirs. " alt="" coords="226,56,417,83"/>
+</map>

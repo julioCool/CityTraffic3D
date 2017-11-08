@@ -1,0 +1,4 @@
+<map id="tools::extractRoad" name="tools::extractRoad">
+<area shape="rect" id="node2" href="$classtools.html#a51a1e2baf8f72423c78f5b77fcb8cf22" title="Recherche de 16 points autour d&#39;un point donné G3D permet de trouver les points autour d&#39;un point don..." alt="" coords="193,5,279,32"/>
+<area shape="rect" id="node3" href="$classtools.html#a718f4aa3915e47a62faa127fab54e04a" title="Calcul de distance. Calcul basique de distance entre deux points. " alt="" coords="183,56,289,83"/>
+</map>

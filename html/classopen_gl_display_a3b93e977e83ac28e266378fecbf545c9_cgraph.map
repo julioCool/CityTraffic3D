@@ -1,0 +1,51 @@
+<map id="openGlDisplay::mouseMoveEvent" name="openGlDisplay::mouseMoveEvent">
+<area shape="rect" id="node2" href="$classopen_gl_display.html#afab602db0233660ce712e4f80e7b930d" title="Déplacement de la caméra. " alt="" coords="737,325,901,352"/>
+<area shape="rect" id="node5" href="$classopen_gl_display.html#ac364c965992c2fc8328fe21d80fef498" title="openGlDisplay::updateView" alt="" coords="240,199,423,225"/>
+<area shape="rect" id="node3" href="$classopen_gl_display.html#ae4fc4fbe5125c832b332885ae90ef26e" title="Change l&#39;angle d&#39;inclinaison de la caméra (heading) selon les mouvements de la sourirs. " alt="" coords="974,335,1182,361"/>
+<area shape="rect" id="node4" href="$classopen_gl_display.html#aa14c5e036abd463ac834bd3084cb2c16" title="Change le tangage de la caméra (pitch) selon les mouvements de la sourirs. " alt="" coords="983,407,1173,433"/>
+<area shape="rect" id="node6" href="$classopen_gl_display.html#ae5590b2c0f87b7a3a16f8507e4b5700f" title="Quand a et b commence à un point d&#39;origine (0, 0, 0), le produit terminera à : cx = aybz &#45; azby cy = ..." alt="" coords="981,160,1175,187"/>
+<area shape="rect" id="node7" href="$classopen_gl_display.html#acb79a7021bfe9524cff99b3094da8a01" title="Fonction qui permet de passer d&#39;un angle d&#39;Euler en quaternion Les angles doivent être en degré pour ..." alt="" coords="491,57,649,98"/>
+<area shape="rect" id="node8" href="$classopen_gl_display.html#acb691a70a41a171dc0949bb412ae99e1" title="La multiplication d&#39;un quaternion A par un quaternion B est faite selon : &#160;&#160;&#160;&#160;Ce qui donne : &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..." alt="" coords="749,173,889,200"/>
+<area shape="rect" id="node9" href="$classopen_gl_display.html#a587eed4a59743df25c3177681d205ad7" title="openGlDisplay::normalizeQuat" alt="" coords="471,5,669,32"/>
+<area shape="rect" id="node11" href="$classopen_gl_display.html#afbf525a593abc0500cd01cce9d94edcc" title="Rotation d&#39;un quaternion depuis un vecteur. Création d&#39;un nouveau quaternion avec un quaternion tampo..." alt="" coords="481,772,659,799"/>
+<area shape="rect" id="node10" href="$classopen_gl_display.html#a7bd14f3e7325e96fb5405023c3f2ac1c" title="Fonction pour avoir la longeur d&#39;un quaternion On commence par calculer la longeur d&#39;un quaternion po..." alt="" coords="744,5,895,32"/>
+<area shape="rect" id="node12" href="$classopen_gl_display.html#a96c0c3ec8cb9afadce7c151a93a370ad" title="Fonction pour avoir le conjugué d&#39;un quaternion Pour avoir le conjugé d&#39;un quaternion, on prend simplement son opposé : &#160;&#160;. " alt="" coords="734,747,905,773"/>
+<area shape="rect" id="node13" href="$classopen_gl_display.html#a5134152675d5bc95c9363bd5d786d107" title="openGlDisplay::openGlDisplay" alt="" coords="719,797,919,824"/>
+<area shape="rect" id="node14" href="$classopen_gl_display.html#a852b64e03eddf52b15562dee5d279d13" title="Toutes les données d&#39;import sont gérées via cette méthode. Cette méthode est appelé au chargement de ..." alt="" coords="997,645,1159,672"/>
+<area shape="rect" id="node15" href="$classopen_gl_display.html#ab9ea5b002e9ea93260513ba916b7ac31" title="openGlDisplay::ChargerOjb3D" alt="" coords="1251,344,1449,371"/>
+<area shape="rect" id="node24" href="$classopen_gl_display.html#ac2aaee6bab489b8370f02ac6dd3783bb" title="Charge les objets voitures. " alt="" coords="1251,278,1449,319"/>
+<area shape="rect" id="node30" href="$classopen_gl_display.html#a2307b01be02201da3110dfdd7e3b7454" title="Gestion de la lumière (soleil) " alt="" coords="1247,1156,1453,1183"/>
+<area shape="rect" id="node31" href="$classopen_gl_display.html#a1f2c4e951aaac4bde45b7555693c7c7c" title="openGlDisplay::GestionCamera" alt="" coords="1247,1209,1453,1236"/>
+<area shape="rect" id="node32" href="$classopen_gl_display.html#a8373e6c998665c534dd585b48f38748a" title="Affichage des triangles de topographie. " alt="" coords="1235,1331,1465,1357"/>
+<area shape="rect" id="node33" href="$classopen_gl_display.html#a041929f2907b618e6d51307feea22472" title="Affichage de la topographie en mode filaire. " alt="" coords="1235,1382,1465,1423"/>
+<area shape="rect" id="node34" href="$classopen_gl_display.html#a7052d2420d411fb8e65dffc90e9a1786" title="openGlDisplay::Affichier\lRoutes" alt="" coords="1269,1449,1431,1490"/>
+<area shape="rect" id="node35" href="$classopen_gl_display.html#af1b2da3c6b6d90799355eca6e7697521" title="openGlDisplay::Affichier\lRoutesFilaire" alt="" coords="1269,1515,1431,1557"/>
+<area shape="rect" id="node36" href="$classopen_gl_display.html#a748ab241b5e1f706d15b431cf495c03d" title="Affichage des triangles de bâtiments. " alt="" coords="1241,952,1459,979"/>
+<area shape="rect" id="node37" href="$classopen_gl_display.html#a27d16312a02e05fbe53346bfa40cba9e" title="Affichage de l if(tools::ComparaisonCoordonnees(positionVoiture,coordPoint2))a skybox. " alt="" coords="1247,1583,1453,1609"/>
+<area shape="rect" id="node38" href="$classopen_gl_display.html#a9308d42a5d28ef6e229e7aa49a5e9a41" title="Affichage des objets 3D. " alt="" coords="1513,1079,1711,1105"/>
+<area shape="rect" id="node39" href="$classopen_gl_display.html#aca6ace222400f54548b975a8d9f35b2a" title="Affichage des tronçon de route en mode filaire. " alt="" coords="738,579,901,621"/>
+<area shape="rect" id="node40" href="$classopen_gl_display.html#a158a2f1a6ed8e087e39b0b8f2819466c" title="openGlDisplay::AfficherTrajets" alt="" coords="1250,1003,1450,1029"/>
+<area shape="rect" id="node41" href="$classopen_gl_display.html#a8852a3e2372a4cae0af79549053718b1" title="openGlDisplay::AfficherArbres" alt="" coords="1251,1104,1449,1131"/>
+<area shape="rect" id="node42" href="$classopen_gl_display.html#a9c20f4dcb5bbd2def39af31d22a254b2" title="Initialisation des variables. " alt="" coords="730,899,909,925"/>
+<area shape="rect" id="node44" href="$classopen_gl_display.html#a9d4a3446282fd877e6efc3f5204c35a1" title="Taille de la fenêtre OpenGl. " alt="" coords="736,645,903,672"/>
+<area shape="rect" id="node45" href="$classopen_gl_display.html#a912f95aa86ddd4303f247d8ddbc5ddca" title="Cette méthode est appelée à toute les images par seconde. Toute la scene 3D est gérée ici..." alt="" coords="739,1240,899,1267"/>
+<area shape="rect" id="node47" href="$classopen_gl_display.html#a968132b205eb96cec68ed316ccc02d4a" title="Tous les triangles sont affichés ici. " alt="" coords="985,1321,1171,1362"/>
+<area shape="rect" id="node49" href="$classopen_gl_display.html#ae7a995013ae0718a04c3570308c12d77" title="Méthode pour afficher la vue 3D en plein écran ou non. " alt="" coords="993,258,1163,299"/>
+<area shape="rect" id="node50" href="$classopen_gl_display.html#a71b81fecc244ab45be5981f6705876b5" title="Evénements clavier. " alt="" coords="717,224,921,251"/>
+<area shape="rect" id="node16" href="$classtools.html#a71c5616ad73ab52d8599858ee17d699c" title="triangulation d&#39;une grille Triangulation d&#39;une grille topographique " alt="" coords="1274,395,1426,421"/>
+<area shape="rect" id="node18" href="$classtools.html#aa867e4188a8c79fe093d6ec0edd7301f" title="Extraction des coordonnées à partir d&#39;un fichier de lignes. Lecture d&#39;un fichier .shp contenant des lignes pour en extraire les sommets et les informations importantes pour le module de simulation. " alt="" coords="1285,547,1415,573"/>
+<area shape="rect" id="node20" href="$classtools.html#ae1cf84c00c192729f49158dbdb245be4" title="Création de la topologie. Création de la topologie en prenant en compte tous les tronçons chargés..." alt="" coords="1281,597,1419,624"/>
+<area shape="rect" id="node21" href="$classtools.html#a64a8e11dc7a993208b2609def3c536aa" title="Creer les triangles 3D des tronçons de route. 2 triangles sont créés pour chacun des triangles..." alt="" coords="1271,648,1429,675"/>
+<area shape="rect" id="node22" href="$classtools.html#ab94061cb1d6356a7f15d912ccd672eb5" title="Choix d&#39;un segment sur le réseau routier. Un segment est choisi aléatoirement sur le réseau..." alt="" coords="1265,699,1435,725"/>
+<area shape="rect" id="node23" href="$classtools.html#ad0f79852bb1e28a637c7b94682cd6786" title="Trouve un chemin aléatoire sur le réseau. Un trajet aléatoire est trouvé à partir d&#39;un point de dépar..." alt="" coords="1271,749,1429,776"/>
+<area shape="rect" id="node25" href="$classtools.html#a409915e4409c0fdaaabf0f3b0d14977a" title="Extraction des coordonnées à partir d&#39;un fichier de polygones Lecture d&#39;un fichier ..." alt="" coords="1283,800,1417,827"/>
+<area shape="rect" id="node26" href="$classtools.html#a540516e1908be02e9bb79bb1f992f74c" title="Rempli un vectuer de points3D à partir d&#39;un vecteur de vecteur de points. " alt="" coords="1271,901,1429,928"/>
+<area shape="rect" id="node27" href="$classtools.html#ab1f11c455db77994a9e62fc066c02539" title="Positionnement des bâtiments sur la topographie Rattachement des bâtiments à la topographie avec attr..." alt="" coords="1268,851,1432,877"/>
+<area shape="rect" id="node28" href="$classtools.html#aaae6a53df2dd421c560f96c3ee3edcc4" title="Création de toits en 3D Cette méthode est utilisée seulement pour les bâtiments ayant 4 façades..." alt="" coords="1301,445,1399,472"/>
+<area shape="rect" id="node29" href="$classtools.html#a7296b149ce7ef19249b1714c0878b59f" title="Création de murs en 3D Création de murs en 3D. " alt="" coords="1301,496,1399,523"/>
+<area shape="rect" id="node17" href="$classtools.html#aed6a561059073aaa0fd15d9dee5e3915" title="Calcul de la norme Calcul de la norme à partir de 3 points. " alt="" coords="1555,471,1669,497"/>
+<area shape="rect" id="node19" href="$classtools.html#a51a1e2baf8f72423c78f5b77fcb8cf22" title="Recherche de 16 points autour d&#39;un point donné G3D permet de trouver les points autour d&#39;un point don..." alt="" coords="1569,901,1655,928"/>
+<area shape="rect" id="node43" href="$sdlglutils_8cpp.html#ae8d291e8504c8400169aad1d92c37e6d" title="loadTexture" alt="" coords="1033,899,1123,925"/>
+<area shape="rect" id="node46" href="$class_stereo_camera.html#aa2819350aae55b03a58d27d9e9e3d8bb" title="StereoCamera::ApplyLeftFrustum" alt="" coords="969,1269,1187,1296"/>
+<area shape="rect" id="node48" href="$class_stereo_camera.html#ac1522187c943e432d8ff9adf6b2a4214" title="StereoCamera::ApplyRight\lFrustum" alt="" coords="989,1203,1167,1245"/>
+</map>

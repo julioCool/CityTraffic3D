@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Traffic city3D:  Fichier source de sdlglutils.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="city22.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Traffic city3D
+   &#160;<span id="projectnumber">v1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">sdlglutils.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="sdlglutils_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SDLGLUTILS_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SDLGLUTILS_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;GL/gl.h&gt;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;SDL/SDL.h&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#ifndef GL_CLAMP_TO_EDGE</span></div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="sdlglutils_8h.html#ae90f81f48642444b4ba7fa5cacf40569">   14</a></span>&#160;<span class="preprocessor">#define GL_CLAMP_TO_EDGE 0x812F</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;GLuint <a class="code" href="sdlglutils_8h.html#a91f7ed81703db7687039d5dbb01faf1d">loadTexture</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> * filename,<span class="keywordtype">bool</span> useMipMap = <span class="keyword">true</span>);</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keywordtype">int</span> <a class="code" href="sdlglutils_8h.html#a8244e9951d6847099f63586af59f1f84">takeScreenshot</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> * filename);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keywordtype">void</span> <a class="code" href="sdlglutils_8h.html#a1407c72c52dbca85da4bd95b189a5cd8">drawAxis</a>(<span class="keywordtype">double</span> scale = 1);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordtype">int</span> <a class="code" href="sdlglutils_8h.html#a8239fc387a66082a485cd1ffbcac2343">initFullScreen</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * width = NULL,<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * height = NULL);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keywordtype">int</span> <a class="code" href="sdlglutils_8h.html#a1fade277f34ab06d29568d8dc0615965">XPMFromImage</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> * imagefile, <span class="keyword">const</span> <span class="keywordtype">char</span> * XPMfile);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;SDL_Cursor * <a class="code" href="sdlglutils_8h.html#a349aaa0985b868f3413b390d44eefa5f">cursorFromXPM</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> * xpm[]);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif //SDLGLUTILS_H</span></div><div class="ttc" id="sdlglutils_8h_html_a349aaa0985b868f3413b390d44eefa5f"><div class="ttname"><a href="sdlglutils_8h.html#a349aaa0985b868f3413b390d44eefa5f">cursorFromXPM</a></div><div class="ttdeci">SDL_Cursor * cursorFromXPM(const char *xpm[])</div><div class="ttdef"><b>Definition:</b> sdlglutils.cpp:286</div></div>
+<div class="ttc" id="sdlglutils_8h_html_a91f7ed81703db7687039d5dbb01faf1d"><div class="ttname"><a href="sdlglutils_8h.html#a91f7ed81703db7687039d5dbb01faf1d">loadTexture</a></div><div class="ttdeci">GLuint loadTexture(const char *filename, bool useMipMap=true)</div><div class="ttdef"><b>Definition:</b> sdlglutils.cpp:11</div></div>
+<div class="ttc" id="sdlglutils_8h_html_a8239fc387a66082a485cd1ffbcac2343"><div class="ttname"><a href="sdlglutils_8h.html#a8239fc387a66082a485cd1ffbcac2343">initFullScreen</a></div><div class="ttdeci">int initFullScreen(unsigned int *width=NULL, unsigned int *height=NULL)</div><div class="ttdef"><b>Definition:</b> sdlglutils.cpp:179</div></div>
+<div class="ttc" id="sdlglutils_8h_html_a8244e9951d6847099f63586af59f1f84"><div class="ttname"><a href="sdlglutils_8h.html#a8244e9951d6847099f63586af59f1f84">takeScreenshot</a></div><div class="ttdeci">int takeScreenshot(const char *filename)</div><div class="ttdef"><b>Definition:</b> sdlglutils.cpp:82</div></div>
+<div class="ttc" id="sdlglutils_8h_html_a1407c72c52dbca85da4bd95b189a5cd8"><div class="ttname"><a href="sdlglutils_8h.html#a1407c72c52dbca85da4bd95b189a5cd8">drawAxis</a></div><div class="ttdeci">void drawAxis(double scale=1)</div><div class="ttdef"><b>Definition:</b> sdlglutils.cpp:153</div></div>
+<div class="ttc" id="sdlglutils_8h_html_a1fade277f34ab06d29568d8dc0615965"><div class="ttname"><a href="sdlglutils_8h.html#a1fade277f34ab06d29568d8dc0615965">XPMFromImage</a></div><div class="ttdeci">int XPMFromImage(const char *imagefile, const char *XPMfile)</div><div class="ttdef"><b>Definition:</b> sdlglutils.cpp:202</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Jeudi 26 Octobre 2017 23:37:54 pour Traffic city3D par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

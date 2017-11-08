@@ -1,0 +1,7 @@
+<map id="openGlDisplay::getData" name="openGlDisplay::getData">
+<area shape="rect" id="node2" href="$classopen_gl_display.html#a9c20f4dcb5bbd2def39af31d22a254b2" title="Initialisation des variables. " alt="" coords="215,27,393,54"/>
+<area shape="rect" id="node3" href="$classopen_gl_display.html#afbf525a593abc0500cd01cce9d94edcc" title="Rotation d&#39;un quaternion depuis un vecteur. Création d&#39;un nouveau quaternion avec un quaternion tampo..." alt="" coords="441,53,620,79"/>
+<area shape="rect" id="node4" href="$classopen_gl_display.html#ac364c965992c2fc8328fe21d80fef498" title="openGlDisplay::updateView" alt="" coords="668,53,851,79"/>
+<area shape="rect" id="node5" href="$classopen_gl_display.html#a3b93e977e83ac28e266378fecbf545c9" title="Mouvements de la souris. " alt="" coords="907,5,1094,47"/>
+<area shape="rect" id="node6" href="$classopen_gl_display.html#a71b81fecc244ab45be5981f6705876b5" title="Evénements clavier. " alt="" coords="899,82,1103,109"/>
+</map>

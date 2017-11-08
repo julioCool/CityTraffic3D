@@ -1,0 +1,16 @@
+<map id="newcity.h" name="newcity.h">
+<area shape="rect" id="node2" href="$includeqt_8h.html" title="Liste d&#39;include des fonctionnalités Qt. " alt="" coords="659,229,744,256"/>
+<area shape="rect" id="node13" href="$includec_8h.html" title="Liste d&#39;include des fonctionnalités en C. " alt="" coords="969,304,1050,331"/>
+<area shape="rect" id="node20" href="$includeqgis_8h.html" title="Liste d&#39;include des fonctionnalités QGIS. " alt="" coords="1953,304,2052,331"/>
+<area shape="rect" id="node40" href="$fielddatabuilding_8h.html" title="Fenêtre pour le choix du champs contenant la hauteur des bâtiments. " alt="" coords="1755,80,1882,107"/>
+<area shape="rect" id="node41" href="$globalvariables_8h.html" title="Variables globales pour le fonctionnement du logiciel. " alt="" coords="1425,155,1543,181"/>
+<area shape="rect" id="node42" href="$tools_8h.html" title="Outils servant à la conversion des données, à la simulation et à la vue 3d. " alt="" coords="1404,229,1465,256"/>
+<area shape="rect" id="node43" href="$fielddataroad_8h.html" title="Fenêtre pour le choix du champs contenant la largeur des routes. " alt="" coords="1624,80,1731,107"/>
+<area shape="rect" id="node44" href="$helpbuilding_8h.html" title="Fenêtre d&#39;aide concernant l&#39;import de la données des bâtiments. " alt="" coords="2077,155,2179,181"/>
+<area shape="rect" id="node45" href="$helproad_8h.html" title="Fenêtre d&#39;aide concernant l&#39;import de la données des routes. " alt="" coords="2203,155,2285,181"/>
+<area shape="rect" id="node46" href="$helptree_8h.html" title="Fenêtre d&#39;aide concernant l&#39;import de la données des arbres. " alt="" coords="2267,229,2346,256"/>
+<area shape="rect" id="node47" href="$helpgrass_8h.html" title="Fenêtre d&#39;aide concernant l&#39;import de la données des zones herbacées. " alt="" coords="2361,155,2450,181"/>
+<area shape="rect" id="node48" href="$helpwater_8h.html" title="helpwater.h" alt="" coords="1958,229,2047,256"/>
+<area shape="rect" id="node49" href="$helptopo_8h.html" title="Fenêtre d&#39;aide concernant l&#39;import de la topographie. " alt="" coords="2008,80,2091,107"/>
+<area shape="rect" id="node50" href="$citynamechoice_8h.html" title="Fenêtre pour le choix du nom de ville. " alt="" coords="1475,80,1599,107"/>
+</map>

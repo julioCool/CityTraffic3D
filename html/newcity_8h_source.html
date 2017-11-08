@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Traffic city3D:  Fichier source de newcity.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="city22.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Traffic city3D
+   &#160;<span id="projectnumber">v1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">newcity.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="newcity_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef NEWCITY_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define NEWCITY_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">//Qt include</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="includeqt_8h.html">includeqt.h</a>&gt;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">//C include</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="includec_8h.html">includec.h</a>&gt;</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">//QGIS include</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="includeqgis_8h.html">includeqgis.h</a>&gt;</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">//Local include</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="fielddatabuilding_8h.html">fielddatabuilding.h</a>&gt;</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="fielddataroad_8h.html">fielddataroad.h</a>&gt;</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="helpbuilding_8h.html">helpbuilding.h</a>&gt;</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="helproad_8h.html">helproad.h</a>&gt;</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="helptree_8h.html">helptree.h</a>&gt;</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="helpgrass_8h.html">helpgrass.h</a>&gt;</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="helpwater_8h.html">helpwater.h</a>&gt;</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="helptopo_8h.html">helptopo.h</a>&gt;</span></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="globalvariables_8h.html">globalvariables.h</a>&gt;</span></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="citynamechoice_8h.html">citynamechoice.h</a>&gt;</span></div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="tools_8h.html">tools.h</a>&gt;</span></div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_ui.html">Ui</a> {</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">class </span><a class="code" href="classnew_city.html">newCity</a>;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classnew_city.html">   37</a></span>&#160;<span class="keyword">class </span><a class="code" href="classnew_city.html">newCity</a> : <span class="keyword">public</span> QDialog</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    </div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classnew_city.html">newCity</a>(QWidget *parent = 0);</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    ~<a class="code" href="classnew_city.html">newCity</a>();</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">public</span> slots:</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="comment">//Boutons pour l&#39;import</span></div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment"></span>    <span class="keywordtype">void</span> showBuildingUpload();</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">void</span> showRoadUpload();</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span> showTreeUpload();</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">void</span> showGrassUpload();</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">void</span> showWaterUpload();</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">void</span> showTopoUpload();</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    </div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="comment">// Boutons d&#39;aide</span></div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment"></span>    <span class="keywordtype">void</span> showHelpBuilding();</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">void</span> showHelpRoad();</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">void</span> showHelpTree();</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordtype">void</span> showHelpGrass();</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">void</span> showHelpWater();</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">void</span> showHelpTopo();</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    </div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="comment">// Bouton pour savegarder et lancer la conversion</span></div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordtype">void</span> okButton();</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    </div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="class_ui_1_1new_city.html">Ui::newCity</a> *ui;</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    </div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordtype">bool</span> buildingLoaded;</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordtype">bool</span> roadLoaded;</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordtype">bool</span> treeLoaded;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordtype">bool</span> grassLoaded;</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordtype">bool</span> waterLoaded;</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keywordtype">bool</span> topoLoaded;</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;};</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="preprocessor">#endif // NEWCITY_H</span></div><div class="ttc" id="globalvariables_8h_html"><div class="ttname"><a href="globalvariables_8h.html">globalvariables.h</a></div><div class="ttdoc">Variables globales pour le fonctionnement du logiciel. </div></div>
+<div class="ttc" id="includeqt_8h_html"><div class="ttname"><a href="includeqt_8h.html">includeqt.h</a></div><div class="ttdoc">Liste d&amp;#39;include des fonctionnalités Qt. </div></div>
+<div class="ttc" id="namespace_ui_html"><div class="ttname"><a href="namespace_ui.html">Ui</a></div><div class="ttdef"><b>Definition:</b> citynamechoice.h:15</div></div>
+<div class="ttc" id="helpbuilding_8h_html"><div class="ttname"><a href="helpbuilding_8h.html">helpbuilding.h</a></div><div class="ttdoc">Fenêtre d&amp;#39;aide concernant l&amp;#39;import de la données des bâtiments. </div></div>
+<div class="ttc" id="fielddataroad_8h_html"><div class="ttname"><a href="fielddataroad_8h.html">fielddataroad.h</a></div><div class="ttdoc">Fenêtre pour le choix du champs contenant la largeur des routes. </div></div>
+<div class="ttc" id="includeqgis_8h_html"><div class="ttname"><a href="includeqgis_8h.html">includeqgis.h</a></div><div class="ttdoc">Liste d&amp;#39;include des fonctionnalités QGIS. </div></div>
+<div class="ttc" id="class_ui_1_1new_city_html"><div class="ttname"><a href="class_ui_1_1new_city.html">Ui::newCity</a></div><div class="ttdef"><b>Definition:</b> ui_newcity.h:264</div></div>
+<div class="ttc" id="citynamechoice_8h_html"><div class="ttname"><a href="citynamechoice_8h.html">citynamechoice.h</a></div><div class="ttdoc">Fenêtre pour le choix du nom de ville. </div></div>
+<div class="ttc" id="helpgrass_8h_html"><div class="ttname"><a href="helpgrass_8h.html">helpgrass.h</a></div><div class="ttdoc">Fenêtre d&amp;#39;aide concernant l&amp;#39;import de la données des zones herbacées. </div></div>
+<div class="ttc" id="classnew_city_html"><div class="ttname"><a href="classnew_city.html">newCity</a></div><div class="ttdef"><b>Definition:</b> newcity.h:37</div></div>
+<div class="ttc" id="helptopo_8h_html"><div class="ttname"><a href="helptopo_8h.html">helptopo.h</a></div><div class="ttdoc">Fenêtre d&amp;#39;aide concernant l&amp;#39;import de la topographie. </div></div>
+<div class="ttc" id="tools_8h_html"><div class="ttname"><a href="tools_8h.html">tools.h</a></div><div class="ttdoc">Outils servant à la conversion des données, à la simulation et à la vue 3d. </div></div>
+<div class="ttc" id="includec_8h_html"><div class="ttname"><a href="includec_8h.html">includec.h</a></div><div class="ttdoc">Liste d&amp;#39;include des fonctionnalités en C. </div></div>
+<div class="ttc" id="fielddatabuilding_8h_html"><div class="ttname"><a href="fielddatabuilding_8h.html">fielddatabuilding.h</a></div><div class="ttdoc">Fenêtre pour le choix du champs contenant la hauteur des bâtiments. </div></div>
+<div class="ttc" id="helpwater_8h_html"><div class="ttname"><a href="helpwater_8h.html">helpwater.h</a></div></div>
+<div class="ttc" id="helptree_8h_html"><div class="ttname"><a href="helptree_8h.html">helptree.h</a></div><div class="ttdoc">Fenêtre d&amp;#39;aide concernant l&amp;#39;import de la données des arbres. </div></div>
+<div class="ttc" id="helproad_8h_html"><div class="ttname"><a href="helproad_8h.html">helproad.h</a></div><div class="ttdoc">Fenêtre d&amp;#39;aide concernant l&amp;#39;import de la données des routes. </div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Jeudi 26 Octobre 2017 23:37:53 pour Traffic city3D par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

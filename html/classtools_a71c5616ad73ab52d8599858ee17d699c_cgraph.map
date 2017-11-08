@@ -1,0 +1,5 @@
+<map id="tools::triangulationGrid" name="tools::triangulationGrid">
+<area shape="rect" id="node2" href="$classtools.html#a0f5d12035d6c1ae869634957861af527" title="Interpolation d&#39;une grille. Interpolation d&#39;une grille topographique. " alt="" coords="205,5,356,32"/>
+<area shape="rect" id="node4" href="$classtools.html#aed6a561059073aaa0fd15d9dee5e3915" title="Calcul de la norme Calcul de la norme à partir de 3 points. " alt="" coords="223,56,338,83"/>
+<area shape="rect" id="node3" href="$classtools.html#a51a1e2baf8f72423c78f5b77fcb8cf22" title="Recherche de 16 points autour d&#39;un point donné G3D permet de trouver les points autour d&#39;un point don..." alt="" coords="404,5,489,32"/>
+</map>

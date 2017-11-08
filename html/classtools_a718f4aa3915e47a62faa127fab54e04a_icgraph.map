@@ -1,0 +1,12 @@
+<map id="tools::distCalc" name="tools::distCalc">
+<area shape="rect" id="node2" href="$classtools.html#aa867e4188a8c79fe093d6ec0edd7301f" title="Extraction des coordonnées à partir d&#39;un fichier de lignes. Lecture d&#39;un fichier .shp contenant des lignes pour en extraire les sommets et les informations importantes pour le module de simulation. " alt="" coords="377,27,506,54"/>
+<area shape="rect" id="node9" href="$classtools.html#a478731610db22895aa7c89e6f856099e" title="Calcul de l&#39;angle entre 3 points. Calcul de l&#39;angle entre deux tronçon prenant en compte le point en ..." alt="" coords="160,78,324,105"/>
+<area shape="rect" id="node11" href="$classtools.html#a775ef721f3ad5be013d0768e9074129c" title="Découpage des segments de routes selon la grille de topographie sous&#45;jacente. " alt="" coords="178,129,306,155"/>
+<area shape="rect" id="node3" href="$classopen_gl_display.html#a852b64e03eddf52b15562dee5d279d13" title="Toutes les données d&#39;import sont gérées via cette méthode. Cette méthode est appelé au chargement de ..." alt="" coords="559,53,720,79"/>
+<area shape="rect" id="node4" href="$classopen_gl_display.html#a9c20f4dcb5bbd2def39af31d22a254b2" title="Initialisation des variables. " alt="" coords="768,27,947,54"/>
+<area shape="rect" id="node5" href="$classopen_gl_display.html#afbf525a593abc0500cd01cce9d94edcc" title="Rotation d&#39;un quaternion depuis un vecteur. Création d&#39;un nouveau quaternion avec un quaternion tampo..." alt="" coords="995,53,1173,79"/>
+<area shape="rect" id="node6" href="$classopen_gl_display.html#ac364c965992c2fc8328fe21d80fef498" title="openGlDisplay::updateView" alt="" coords="1221,53,1404,79"/>
+<area shape="rect" id="node7" href="$classopen_gl_display.html#a3b93e977e83ac28e266378fecbf545c9" title="Mouvements de la souris. " alt="" coords="1461,5,1647,47"/>
+<area shape="rect" id="node8" href="$classopen_gl_display.html#a71b81fecc244ab45be5981f6705876b5" title="Evénements clavier. " alt="" coords="1452,82,1656,109"/>
+<area shape="rect" id="node10" href="$classtools.html#ae1cf84c00c192729f49158dbdb245be4" title="Création de la topologie. Création de la topologie en prenant en compte tous les tronçons chargés..." alt="" coords="372,78,511,105"/>
+</map>

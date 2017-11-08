@@ -1,0 +1,17 @@
+<map id="stereodisplay.h" name="stereodisplay.h">
+<area shape="rect" id="node2" href="$gis4dwindow_8h.html" title="Fenêtre globale du logiciel Dans cette fenêtre se trouve toutes les possibilités d&#39;affichage ou de ca..." alt="" coords="284,80,392,107"/>
+<area shape="rect" id="node15" href="$moc__stereodisplay_8cpp.html" title="moc_stereodisplay.cpp" alt="" coords="416,80,572,107"/>
+<area shape="rect" id="node16" href="$stereodisplay_8cpp.html" title="Widget pour la vue stéréoscopique. " alt="" coords="596,80,720,107"/>
+<area shape="rect" id="node3" href="$gis4dwindow_8cpp.html" title="Fenêtre principale du logiciel. " alt="" coords="578,155,701,181"/>
+<area shape="rect" id="node4" href="$opengldisplay_8h.html" title="Fenêtre OpenGl et fonctions de conversions. " alt="" coords="111,229,223,256"/>
+<area shape="rect" id="node12" href="$stereocamera_8h.html" title="Calculate the left and right display for the steroscopic view. " alt="" coords="165,155,277,181"/>
+<area shape="rect" id="node13" href="$main_8cpp.html" title="Fichier de lancement du programme Traffic City 3D. " alt="" coords="301,155,375,181"/>
+<area shape="rect" id="node14" href="$moc__gis4dwindow_8cpp.html" title="moc_gis4dwindow.cpp" alt="" coords="399,155,554,181"/>
+<area shape="rect" id="node5" href="$holoview_8h.html" title="Fenêtre avec 4 vue 3D dessinées perpendiculairement les unes autres autres. Afin d&#39;afficher la vue de..." alt="" coords="407,304,491,331"/>
+<area shape="rect" id="node8" href="$hologramme_8h.html" title="hologramme.h" alt="" coords="667,304,771,331"/>
+<area shape="rect" id="node10" href="$moc__opengldisplay_8cpp.html" title="moc_opengldisplay.cpp" alt="" coords="5,304,164,331"/>
+<area shape="rect" id="node11" href="$opengldisplay_8cpp.html" title="Widget pour la vue 3D. " alt="" coords="188,304,315,331"/>
+<area shape="rect" id="node6" href="$holoview_8cpp.html" title="Fenêtre avec 4 vues avec différentes rotations pour une vue de type holographique. " alt="" coords="469,379,567,405"/>
+<area shape="rect" id="node7" href="$moc__holoview_8cpp.html" title="moc_holoview.cpp" alt="" coords="314,379,445,405"/>
+<area shape="rect" id="node9" href="$hologramme_8cpp.html" title="hologramme.cpp" alt="" coords="660,379,779,405"/>
+</map>

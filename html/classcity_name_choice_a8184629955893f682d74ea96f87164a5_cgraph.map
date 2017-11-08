@@ -1,0 +1,5 @@
+<map id="cityNameChoice::cityNameChoice" name="cityNameChoice::cityNameChoice">
+<area shape="rect" id="node2" href="$class_ui__city_name_choice.html#a5630e34857152b20cab0e6912e3e8b9f" title="Ui_cityNameChoice::\lsetupUi" alt="" coords="277,5,423,47"/>
+<area shape="rect" id="node4" href="$classcity_name_choice.html#acebf74171bf617896e0119e04c4679f7" title="cityNameChoice::changeCityName" alt="" coords="236,71,464,98"/>
+<area shape="rect" id="node3" href="$class_ui__city_name_choice.html#ab91d306b7a95f66763a3ed5c42348aff" title="Ui_cityNameChoice::\lretranslateUi" alt="" coords="512,5,659,47"/>
+</map>
